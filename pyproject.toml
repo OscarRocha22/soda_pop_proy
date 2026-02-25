@@ -16,11 +16,16 @@ classifiers = [
     
 ]
 dependencies = [
+    "ipykernel>=7.2.0",
     "loguru",
+    "matplotlib>=3.10.8",
     "mkdocs",
+    "numpy>=2.4.2",
+    "pandas>=3.0.1",
     "pip",
     "python-dotenv",
     "ruff",
+    "tensorflow[and-cuda]>=2.20.0",
     "tqdm",
     "typer",
 ]
